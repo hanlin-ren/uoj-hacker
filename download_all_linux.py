@@ -122,8 +122,8 @@ def DownloadAllSources(pid) :
   flist.close()
 
 hasspj=0
-ext='.exe'
-sep="\\"
+ext=''
+sep="/"
 
 def CompileGenerator(pid) :
   gen = '..'+sep+'gen'+sep + str(pid) + '.cpp'
